@@ -1,0 +1,65 @@
+{
+   "abstract" : "Iteration data with Sliding Window Algorithm",
+   "author" : [
+      "Hideaki Ohno<hide.o.j55@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
+   "keywords" : [
+      "Sliding Window"
+   ],
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Data-Iterator-SlidingWindow",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "eg"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Fatal" : "0.008",
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : 0,
+            "parent" : 0
+         }
+      }
+   },
+   "provides" : {
+      "Data::Iterator::SlidingWindow" : {
+         "file" : "lib/Data/Iterator/SlidingWindow.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hideo55/Data-Iterator-SlidingWindow/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/hideo55/Data-Iterator-SlidingWindow.git"
+      }
+   },
+   "version" : "0.01"
+}

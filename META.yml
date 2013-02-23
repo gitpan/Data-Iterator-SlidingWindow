@@ -1,0 +1,36 @@
+---
+abstract: 'Iteration data with Sliding Window Algorithm'
+author:
+  - 'Hideaki Ohno<hide.o.j55@gmail.com>'
+build_requires:
+  Test::Fatal: 0.008
+  Test::More: 0.98
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150'
+keywords:
+  - 'Sliding Window'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-Iterator-SlidingWindow
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - eg
+provides:
+  Data::Iterator::SlidingWindow:
+    file: lib/Data/Iterator/SlidingWindow.pm
+    version: 0.01
+requires:
+  Exporter: 0
+  parent: 0
+resources:
+  bugtracker: https://github.com/hideo55/Data-Iterator-SlidingWindow/issues
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/hideo55/Data-Iterator-SlidingWindow.git
+version: 0.01
