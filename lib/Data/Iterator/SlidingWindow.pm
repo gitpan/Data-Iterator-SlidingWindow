@@ -1,13 +1,14 @@
 package Data::Iterator::SlidingWindow;
 use strict;
 use warnings;
+use 5.008003;
 use parent 'Exporter';
 use Carp qw(croak);
 use overload
     '<>'     => sub { shift->next() },
     fallback => 1;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @EXPORT = qw(iterator);
 
