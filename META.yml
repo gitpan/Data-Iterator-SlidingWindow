@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880'
 keywords:
   - 'Sliding Window'
 license: perl
@@ -25,13 +25,13 @@ no_index:
 provides:
   Data::Iterator::SlidingWindow:
     file: lib/Data/Iterator/SlidingWindow.pm
-    version: 0.02
+    version: 0.03
 requires:
   Exporter: 0
   parent: 0
-  perl: 5.008003
+  perl: 5.008001
 resources:
   bugtracker: https://github.com/hideo55/Data-Iterator-SlidingWindow/issues
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hideo55/Data-Iterator-SlidingWindow.git
-version: 0.02
+version: 0.03
