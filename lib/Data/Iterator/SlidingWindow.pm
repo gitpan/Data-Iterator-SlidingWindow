@@ -8,7 +8,7 @@ use overload
     '<>'     => sub { shift->next() },
     fallback => 1;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 our @EXPORT = qw(iterator);
 
@@ -137,6 +137,7 @@ If you want yield undefined value as a meaning value.You can use 'NULL object pa
 
   iterator 3 => sub{
      my $value = generate_next_value();
+     return unless is_valid_value($value); # exhausted!
      return { value => $value };
   };
 
